@@ -1,0 +1,121 @@
+/* navbar */
+
+body  {
+    background-image: url("backgroundnew.gif") ;
+    background-size: cover;
+    background-color: #cccccc;
+    margin-bottom: 0;
+  }
+
+
+.navbar{
+    background-color: #000000;
+    position: sticky;
+    top:0;
+    box-shadow:0px 0px 100px #ffffffbe;
+    padding-top: 10px;
+}
+
+.nav-item{
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+.title{
+    color: #fff;
+    padding: 30% 15% 30%;
+    text-align: center;
+}
+.title-img{
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-bottom: 30%;
+}
+
+.subtitle{
+    color:#fff;
+    padding:0% 9.2% 50%;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+
+.about{
+    padding: 0.01% 0%;
+    background-color: rgb(8, 8, 118);
+    margin: 10% 7%;
+    margin-top: 0%;
+    border-radius: 10%;
+}
+.about-rkt{
+
+    padding-top: 50%;
+    margin-left: 15%;
+    width:70%;
+}
+
+.about-col{
+    color: #fff;
+    padding:21% 5% 19%;
+    border-radius: 10%;
+    backdrop-filter: blur(6px);
+    background-image: linear-gradient(to left,rgba(255, 255, 255, 0.498),rgba(0, 0, 0, 0));
+}
+
+footer{
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    padding-bottom: 2%;
+}
+
+.footer-text{
+    text-align: center;
+    padding-top: 30px;
+    color: #b0b0b0;
+}
+
+.carousel-item{
+    padding: 3% 15% 7%;
+}
+
+#content{
+    
+    text-align: center;
+    background-color: #b0b0b056;
+    backdrop-filter: blur(10px);
+    margin: 2% 7%;
+    border-radius: 20%;
+    color: #fff;
+}
+
+.content-header{
+    color: #00ded3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+
+.content-img{
+    width: 30%;
+    border-radius: 100%;
+}
+
+.content-text{
+    padding-bottom: 5%;
+}
+
+em{
+    padding-left: 20px;
+}
+
+.button-section{
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 2%;
+}
