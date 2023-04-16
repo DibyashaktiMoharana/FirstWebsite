@@ -119,8 +119,9 @@ em{
     padding-bottom: 2%;
 }
 
-#txtarea{
+textarea{
     text-align: center;
-    padding-bottom: 2%;
+    margin-bottom: 2%;
     opacity: 0.3;
+    width: 50%;
 }
