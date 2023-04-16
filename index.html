@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <link rel="icon" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/7a52e9e5f1.js" crossorigin="anonymous"></script>
     <title>DibyaDoes</title>
 </head>
 
@@ -80,7 +81,7 @@
       </div>
       <div class="carousel-inner" style="padding-bottom: 5%;">
         <div class="carousel-item active ">
-          <h2 class="content-text">Recently went to Banglore.It was one of kind of an experience.Tech parks,Wonderla,Museums,<br> Malls and much more!</h2>
+          <h2 class="content-text">Recently went to Banglore.It was one of kind of an experience.Tech parks,Wonderla,Museums,Malls and much more!</h2>
           <img class="content-img" src="images/banglore.jpg" alt="bangalore">
           <em>10/04/23</em>
         </div>
@@ -100,8 +101,14 @@
   </section>        
     </main>
     <div class="button-section">
-    <button type="button" class="btn btn-lg btn-dark">Connect</button>
+    <button type="button" class="btn btn-lg btn-dark inputdropdownbtn"><i class="fa-regular fa-envelope"></i> Connect</button>
   </div>
+  <form  action="mailto:dibyacollege@gmail.com" method="post" enctype="text/plain" class="form" style="text-align: center;padding: 2%;">
+  <div id = "txtarea">
+  <textarea rows="5" cols="50" name="message" value="">Type your message here!</textarea>
+  </div>
+  <input type="submit" value="submit" class="btn btn-secondary submitbtn">
+  </form>
 </section>
 
 <footer>
@@ -109,5 +116,7 @@
         <p>© Copyright Dibyashakti Moharana</p>
     </div>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
